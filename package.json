@@ -2,10 +2,10 @@
   "name": "movie-analyst-api",
   "version": "1.0.0",
   "description": "Backend API",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "mocha",
-    "start": "SET NODE_ENV=dev && node server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",

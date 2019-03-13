@@ -5,9 +5,9 @@ async function main () {
   try {
     const pool = mysql.createPool({
 
-      host: process.env.DB_HOST || 'aparejardb.cm6hb8mfglop.us-east-1.rds.amazonaws.com',
-      user: process.env.DB_USER || 'Andres_Pareja',
-      password: process.env.DB_PASS || 'Bienvenido2019!',
+      host: process.env.DB_HOST || 'aparejarbd.c0nsmarhx7fn.us-east-1.rds.amazonaws.com',
+      user: process.env.DB_USER || 'andres',
+      password: process.env.DB_PASS || 'andres1234',
       database: process.env.DB_NAME || 'APareja_RDB'
     })
     pool.query = util.promisify(pool.query)
